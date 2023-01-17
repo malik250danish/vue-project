@@ -8,7 +8,9 @@
                     <div class="card bg-dark fCard bounce-enter-active ">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -17,7 +19,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4  " >Fight Ground</button>
                         </div>
                     </div>
@@ -26,7 +30,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -35,7 +41,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -44,7 +52,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -53,7 +63,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -62,7 +74,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -71,7 +85,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -80,7 +96,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -89,7 +107,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -98,7 +118,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -107,7 +129,9 @@
                     <div class="card bg-dark fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <div class="buttonBox mt-5 d-flex" >
+                            <div class="imp2">
                              <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
+                             </div>
                              <button class="btnBox px-4 " >Fight Ground</button>
                         </div>
                     </div>
@@ -146,11 +170,13 @@ export default {
 }
 .btnBox{
     background-color:#000;
-    padding: 8px;
-    height: fit-content;
-    border-radius: 15px;
+   
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+   
     color:#fff;
-    margin-left: 35px;
+    margin-left: 20px;
+    width:70%;
 }
 .btnBox:hover{
     background-color:#fff;
@@ -165,12 +191,18 @@ export default {
 .lobyRMain{
     background: #030303;
 }
+.fCard{
+    background: linear-gradient(to right, #FFF,#000000)
+}
 .fCard:hover{
     
     transform: translate(-10px);
   cursor: pointer; /* Add a pointer on hover */
   transition: 1s;
 
+}
+.imp2{
+    width: 20%;
 }
 
 .bounce-enter-active {

@@ -44,9 +44,9 @@
   </div>
 </nav>
         <div class="container-fluid depositContainer d-flex justify-content-center p-4  m-4 flex-column">
-            <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
-            <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
-            <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ธนาคาร">
+            <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="เลขที่บัญชี">
+            <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ชื่อบัญชี">
             <button class="withdrawl">DepositWithdawl</button>
         </div>
         
@@ -88,7 +88,7 @@ export default {
     background-image: url("../assets/Background.png");
    background-repeat: no-repeat;
     background-size: cover;
-   
+   height: 100vh;
     color: #fff;
 
 }
@@ -99,12 +99,13 @@ export default {
 }
 .depositContainer input{
     margin-top:10px;
-    width: 507px;
-    height: 56px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
 
 }
 .withdrawl {
-    width:450px;
+    width:370px;
     height: 50px;
     color:#fff;
     background: linear-gradient(to right, #EE2623, #F78E1E);

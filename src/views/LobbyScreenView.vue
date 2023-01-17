@@ -6,24 +6,73 @@
     <div class="mainScreen">
 
         <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-12 col-md-6 col-lg-3 align-items-center d-flex flex-column tScreen">
-                    <div class="screen mt-4 bounce-enter-active ">
+            <div class="row  justify-content-center">
+                <div class="col-12 col-md-6 col-lg-2 align-items-center d-flex flex-column tScreen">
+                    <div class="screen mt-2 bounce-enter-active ">
                         <h3 class="text-center">Heading</h3>
                     </div>
-                    <div class="screen mt-4 ml-2 bounce-enter-active">
+                    <div class="screen mt-2 ml-2 bounce-enter-active">
                         <h3 class="text-center">Heading</h3>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-6 mt-4 d-flex flex-column align-items-center ">
-                    <div class="vs p-4">
-                        <img src="../assets/VS.png" width="100%">
+                <div class="col-12 col-md-12 col-lg-8 d-flex flex-column justify-content-center align-items-center   ">
+                    <div class="vs mx-auto ">
+                        <img src="../assets/VS.png" width="70%" style="margin-left:100px">
                         <!-- <h3 class="text-center text-white">VS</h3> -->
                     </div>
-                    <div class=" screen2 bounce-enter-active">
+                    <div class=" screen2 bounce-enter-active mt-1">
 
                     </div>
-                    <div class="row mt-4 justify-content-center">
+                  <div class="col-12">
+                    <div class="row mt-4 justify-content-center punchRow">
+                        <div class="col-6 col-md-6 col-lg-2 mb-2">
+                            <button class="buttonB" id="redBtn"><img src="../assets/redb.png" width="80px"></button>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-8">
+                            <div class="row">
+                                <div class="gradientBtn">
+                                    <button class="gBtn">Text</button>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-3 d-flex justify-content-center">
+                                <div class="row">
+                                <div class="col-12 col-md-6 col-lg-2 mb-2 d-flex justify-content-center">
+                                    <button class="btnF">btn</button>
+                                </div>
+                                <div class="col-12 col-md-12 col-lg-6 ">
+                                    <div class="form-outline">
+                                        <textarea class="form-control" id="textAreaExample1" rows="3" cols=""></textarea>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-2 mt-2  d-flex justify-content-center">
+                                    <button class="btnF">btn</button>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button class="btnp">+10</button>
+                                <button class="btnp" >+10</button>
+                                <button class="btnp">+10</button>
+                                <button class="btnp">+10</button>
+                                <button class="btnp">+10</button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-2 mt-3 mb-2">
+                            <button class="buttonB" id="blueBtn"><img src="../assets/blueb.png" width="80px"></button>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-12 col-lg-2 col-md-6 s3 mt-1">
+                    <div class=" Screen3 bounce-enter-active ">
+                        <h3>Heading</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   <div class="row mt-4 justify-content-center">
                         <div class="col-6 col-md-6 col-lg-3 mb-2">
                             <button class="buttonB" id="redBtn"><img src="../assets/redb.png" width="100px"></button>
                         </div>
@@ -39,7 +88,7 @@
                                 </div>
                                 <div class="col-12 col-md-12 col-lg-6 ">
                                     <div class="form-outline">
-                                        <textarea class="form-control" id="textAreaExample1" rows="3"></textarea>
+                                        <textarea class="form-control" id="textAreaExample1" rows="3" cols=""></textarea>
                                         
                                     </div>
                                 </div>
@@ -58,16 +107,7 @@
                         <div class="col-6 col-md-6 col-lg-3 mt-3 mb-2">
                             <button class="buttonB" id="blueBtn"><img src="../assets/blueb.png" width="100px"></button>
                         </div>
-                    </div>
-
-                </div>
-                <div class="col-12 col-lg-3 col-md-6 mt-4 s3">
-                    <div class=" Screen3 bounce-enter-active ">
-                        <h3>Heading</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div> -->
     </div>
 
 
@@ -104,7 +144,7 @@ export default {
 }
 
 .screen2 {
-    width: 100%;
+    width: 70%;
     height: 300px;
     background: #000;
     border-width: 4px;
@@ -116,8 +156,8 @@ export default {
 }
 
 .Screen3 {
-    width: 220px;
-    height: 500px;
+    width: 270px;
+    height: 100%;
     background: #000;
     border-width: 4px;
     border-style: solid;
@@ -155,6 +195,8 @@ export default {
     margin-top: 10px;
     height: 40px;
     position: relative;
+    
+    align-items: center;
 
 }
 
@@ -166,7 +208,7 @@ export default {
     color: #fff;
     position: absolute;
     top: -10px;
-    right: 100px;
+    right: 220px;
     border-width: 4px;
     border-style: solid;
 
@@ -180,7 +222,9 @@ export default {
    padding: 10px;
    border-radius: 10px;
     background: linear-gradient(to right, #EE2623, #F78E1E);
-    color: #fff;
+    color:#000;
+    width: 100px;
+    margin-left: 3px;
     
 }
 
@@ -200,6 +244,7 @@ export default {
     background: #E51C24;
     width: fit-content;
     border-radius: 10px;
+    margin-left: 20px;
 }
 #blueBtn{
     background: #1C1A69;
@@ -251,13 +296,16 @@ export default {
 }
 
 @media only screen and (max-width: 768px){
-    .gBtn{
+    /* .gBtn{
         right:200px !important;
-    }
+    } */
 }
 @media only screen and (max-width: 400px) {
     .gBtn{
         right:130px !important;
+    }
+    .vs img{
+        margin-left: 52px !important;
     }
 }
 
@@ -272,19 +320,25 @@ export default {
         justify-content: center;
     }
     .Screen3{
-        width: 250px;
-        height: 300px;
+        width: 350px;
+        height: 100%;
     }
-    /* .gBtn{
-        right:300px
-    } */
+    .gBtn{
+        right:170px
+    }
     .screen{
         margin-left:10px}
+        .punchRow{
+            display: flex;
+            align-items: end;
+        }
+
     }
+
  @media only screen and (min-width: 1000px ) and (max-width:1196px )  {
-    .gbtn{
+    /* .gbtn{
         right:81px;
-    }
+    } */
     #redBtn{
         width: 75px;
 

@@ -97,12 +97,12 @@ export default {
 }
 .depositContainer input{
     margin-top:10px;
-    width: 507px;
-    height: 56px;
+    width: 300px;
+    height: 45px;
 
 }
 .withdrawl {
-    width:450px;
+    width:350px;
     height: 50px;
     color:#fff;
     background: linear-gradient(to right, #EE2623, #F78E1E);

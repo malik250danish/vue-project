@@ -44,30 +44,30 @@
                     </div>
                 </div>
             </nav>
-            <div class="container  playerContainer ">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-6 col-md-3">
+            <div class="container d-flex justify-content-center  playerContainer ">
+               
+                    <div class="img">
                         <img src="../assets/player1.png" width="200px">
                     </div>
-                    <div class="col-12 col-md-3 d-flex justify-content-center">
+                    <div class="img">
                         <img src="../assets/player1.png" width="200px">
                     </div>
-                    <div class="col-12 col-md-6  " id="tArea">
-                        <div class="row">
-                            <div class="col-12 mb-2">
-                                <textarea class="form-control " id="textAreaExample1" rows="4"></textarea>
+                    <div class="  " id="tArea">
+                        <div class="">
+                            <div class=" mb-2">
+                                <textarea class="form-control " id="textAreaExample1" rows="4" cols="35"></textarea>
 
                             </div>
-                            <div class="row ">
+                            <div class="d-flex">
 
-                                <div class="col-6">
+                                <div class="">
                                     <button class=" buttonP">
                                         Player
                                     </button>
                                 </div>
-                                <div class="col-6">
-                                    <button class=" buttonP d-flex justify-content-evenly">
-                                       view Password 
+                                <div class="">
+                                    <button class=" buttonP  ">
+                                       player 
                                        <i class="fa fa-eye"></i>
                                     </button>
                                 </div>
@@ -75,7 +75,7 @@
                         </div>
                         <img src="../assets/icon-refresh-credit.png" width="35px" id="rImage">
                     </div>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -106,7 +106,8 @@ export default {
     position: relative;
     background-size: cover;
     color: #fff;
-
+    height: 77vh;
+  
 }
 
 .buttonP {
@@ -114,10 +115,11 @@ export default {
     color: #fff;
     border-radius: 50px;
     border: none;
-    padding: 20px;
+    padding: 10px;
+    width: 130px;
     /* margin-left: 3px; */
     text-align: center;
-    width: 70%;
+
 }
 .buttonP:hover{
     background: #EE2623 !important;
@@ -159,7 +161,7 @@ export default {
 
 #rImage {
     position: absolute;
-    top: 0px;
+    top: -16px;
     right: 20px;
 }
 
@@ -174,7 +176,8 @@ export default {
 }
 
 .playerContainer {
-    margin-top: 200px;
+    margin-top: 50px;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -194,6 +197,17 @@ export default {
         justify-content: center;
     }
 
-    .rButton {}
+    .playerContainer {
+   flex-direction: column-reverse;
+    
+}
+.img{
+    text-align: center;
+}
+.lobby {
+   
+    height:auto;
+  
+}
 }
 </style>

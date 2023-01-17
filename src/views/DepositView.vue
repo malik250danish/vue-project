@@ -6,7 +6,7 @@
            
             
         </div>
-    <div class="deposit">
+    <div class="deposit mt-5">
 
         <nav class="navbar navbar-expand-lg buttons ">
   <div class="container-fluid">
@@ -42,10 +42,10 @@
             <button class="rButton m-2">Random</button>
             <button class="rButton m-2">Random</button>
         </div> -->
-        <div class="container-fluid depositContainer d-flex justify-content-center p-4  m-4 flex-column">
+        <div class="container-fluid depositContainer d-flex justify-content-center p-4  m-4 flex-column mt-5">
             <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ชื่อผู้ใช้ หรือ เบอร์มือถือ">
             <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="รหัสผ่าน">
-            <button>Deposit</button>
+            <button class="mt-3">Deposit</button>
         </div>
         
     </div>
@@ -97,8 +97,8 @@ export default {
 }
 .depositContainer input{
     margin-top:10px;
-    width: 507px;
-    height: 56px;
+    width: 470px;
+    height: 50px;
 
 }
 .depositContainer button{
