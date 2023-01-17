@@ -2,50 +2,18 @@
     <div class="depo">
         <div class="container mb-5 d-flex justify-content-evenly ">
             
-            <img class="mt-2" src="../assets/icon-logo.png" width="70px">
+            <img class="mt-2" src="../assets/icon-logo.png" style="width:120px !important" width="70px">
            
             
         </div>
     <div class="deposit mt-5">
 
-        <nav class="navbar navbar-expand-lg buttons ">
-  <div class="container-fluid">
-   
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-        <!-- <div class="buttons container-fluid  mb-5 d-flex justify-content-center">
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-        </div> -->
+       <NavBarS/>
+       
         <div class="container-fluid depositContainer d-flex justify-content-center p-4  m-4 flex-column mt-5">
             <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ชื่อผู้ใช้ หรือ เบอร์มือถือ">
             <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="รหัสผ่าน">
-            <button class="mt-3">Deposit</button>
+          <a href=""><img class="mt-2" src="../assets/button-submit2.png" width="200px"></a>
         </div>
         
     </div>
@@ -57,12 +25,12 @@
 
 <script>
 
-
+import NavBarS from '@/components/NavBarS'
 
 export default {
     name: 'DepositView',
     components: {
-
+         NavBarS
     }
 }
 </script>

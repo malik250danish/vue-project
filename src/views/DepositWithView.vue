@@ -2,52 +2,20 @@
     <div class="depo">
         <div class="container mb-5 d-flex justify-content-evenly ">
             
-            <img class="mt-2" src="../assets/icon-logo.png" width="70px">
+            <img class="mt-2" src="../assets/icon-logo.png" width="70px" style="width:120px !important">
            
             
         </div>
     <div class="deposit">
 
-        
-        <!-- <div class="buttons container-fluid  mb-5 d-flex justify-content-center">
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-        </div> -->
-        <nav class="navbar navbar-expand-lg buttons ">
-  <div class="container-fluid">
-   
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        <NavBarS/>
+       
+       
         <div class="container-fluid depositContainer d-flex justify-content-center p-4  m-4 flex-column">
             <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ธนาคาร">
             <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="เลขที่บัญชี">
             <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ชื่อบัญชี">
-            <button class="withdrawl">DepositWithdawl</button>
+            <button class="withdrawl">ปุ่มยืนยัน</button>
         </div>
         
     </div>
@@ -59,12 +27,12 @@
 
 <script>
 
-
+import NavBarS from '@/components/NavBarS.vue';
 
 export default {
     name: 'DepositWithView',
     components: {
-
+                  NavBarS
     }
 }
 </script>

@@ -17,7 +17,7 @@
             <i class="fa fa-phone me-4"  style="font-size:36px"></i>
           <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" เบอร์โทรศัพท์">
         </div>
-            <button class="withdrawl">DepositWithdawl</button>
+            <button class="withdrawl">ปุ่มยืนยัน</button>
         </div>
         
     </div>

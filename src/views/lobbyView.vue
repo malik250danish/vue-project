@@ -20,16 +20,16 @@
                         <ul class="navbar-nav">
                            
                             <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
+                                <img class="btnNav" src="../assets/btn.png">
                             </li>
                             <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
+                                <img class="btnNav" src="../assets/lobbybtn2.png">
                             </li>
                             <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
+                                <img class="btnNav" src="../assets/lobbtbtn3.png">
                             </li>
                             <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
+                                <img class="btnNav" src="../assets/lobbybtn4.png">
                             </li>
                         </ul>
                     </div>
@@ -87,6 +87,9 @@ export default {
 }
 </script>
 <style scoped>
+.btnNav{
+    margin-left:20px
+}
 .loby {
     background: #000;
     color: #fff;

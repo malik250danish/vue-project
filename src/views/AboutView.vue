@@ -1,47 +1,16 @@
 <template>
+  
   <div>
     <div class="container-fluid  aboutMain ">
       <div class="text-center">
-        <img class="" src="../assets/icon-logo.png" width="70px">
+        <img class="mt-4" src="../assets/icon-logo.png" width="140px" style="width:140px !important">
       </div>
-      <!-- <div class="buttons container-fluid mt-1  d-flex justify-content-center">
-        <button class="rButton m-2">Random</button>
-        <button class="rButton m-2">Random</button>
-        <button class="rButton m-2">Random</button>
-        <button class="rButton m-2">Random</button>
-        <button class="rButton m-2">Random</button>
-      </div> -->
-      <nav class="navbar navbar-expand-lg buttons ">
-  <div class="container-fluid">
-   
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-        <li class="nav-item">
-            <button class="rButton m-2">Random</button>
-        </li>
-      </ul>
+     
     </div>
-  </div>
-</nav>
-    </div>
+    <NavBarS/>
   <div class="about">
 
-    
+   
     <div class="container ">
      
       <div class="row mainC mt-5">
@@ -50,22 +19,22 @@
           <input type="text" class="form-control mb-1" id="inputPassword2" placeholder="รหัสผ่าน">
           <div class="row">
             <div class="col-12">
-              <button class="rtbutton mt-1">button</button>
-              <button class="ltbutton mt-1">button</button>
+             <a href="#"><img src="../assets/login-button.png" width="200px"></a>
+            <a href="#"><img src="../assets/forget-pass-button.png" width="200px"></a>
              
             </div>
             
-            <div class="col-12 ">
-              <button class="dButton mt-1">Down Button</button>
+            <div class="col-12 mt-1">
+             <a href=""><img src="../assets/register-button.png" width="400px"></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="downButtons mt-5   my-5">
-      <button class="dbButton">Db button</button>
-      <button class="dbButton">Db button</button>
-      <button class="dbButton">Db button</button>
+      <a href="#"><img class="mx-1" src="../assets/d1.png" width="200px"></a>
+    <a href="#"><img class="mx-1" src="../assets/d2.png" width="200px"></a>
+    <a href="#"><img class="mx-1" src="../assets/d3.png" width="200px"></a>
  
     </div>
   </div>
@@ -75,12 +44,12 @@
 
 <script>
 // @ is an alias to /src
-
+import NavBarS from '@/components/NavBarS'
 
 export default {
   name: 'RegistorView',
   components: {
-
+   NavBarS
   }
 }
 </script>
