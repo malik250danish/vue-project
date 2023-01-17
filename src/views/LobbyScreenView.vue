@@ -12,7 +12,7 @@
                         <h3 class="text-center">การเดิมพันของคุณ</h3>
                     </div>
                     <div class="screen mt-2 ml-2 bounce-enter-active">
-                        <h3 class="text-center">คู่มวยอื่น</h3>
+                        <h3 class="text-center"> คู่มวยอื่น </h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-8 d-flex flex-column justify-content-center align-items-center   ">
@@ -104,14 +104,14 @@ export default {
     border-style: solid;
 
     border-image: linear-gradient(to right, #EE2623, #F78E1E);
-<<<<<<< HEAD
+
      border-image: linear-gradient(to right, #EE2623, #F78E1E);
      border-image-slice: 1 !important;
     border-radius: 5px; 
-=======
+
     border-image-slice: 1 !important;
     border-radius: 5px;
->>>>>>> 5ba709727f1987202b651b5e859057743147980d
+
 
 }
 
@@ -123,7 +123,7 @@ export default {
     border-style: solid;
 
     border-image: linear-gradient(to right, #EE2623, #F78E1E);
-    border-image-slice: 1;
+    border-image-slice: 1 !important;
     border-radius: 20px !important;
 }
 
@@ -135,7 +135,7 @@ export default {
     border-style: solid;
 
     border-image: linear-gradient(to right, #EE2623, #F78E1E);
-    border-image-slice: 1;
+    border-image-slice: 1 !important;
     border-radius: 5px;
 }
 
@@ -184,7 +184,7 @@ export default {
     border-style: solid;
 
     border-image: linear-gradient(to right, #EE2623, #F78E1E);
-    border-image-slice: 1;
+    border-image-slice: 1 !important;
 
 }
 .btnp{
@@ -206,7 +206,7 @@ export default {
     padding: 20px;
     /* padding-bottom: 10px; */
     border-image: linear-gradient(to right, #EE2623, #F78E1E);
-    border-image-slice: 1;
+    border-image-slice: 1 !important;
     background: #000;
     /* height: 40px; */
     color: #fff;
