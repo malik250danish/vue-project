@@ -34,7 +34,7 @@
                                     <button class="gBtn">Text</button>
                                 </div>
                             </div>
-                            <div class="col-12 mt-3 d-flex justify-content-centerg">
+                            <div class="col-12 mt-3 d-flex justify-content-center">
                                 <div class="row">
                                 <div class="col-12 col-md-6 col-lg-2 mb-2 d-flex justify-content-center">
                                     <button class="btnF">btn</button>
