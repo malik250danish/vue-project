@@ -104,7 +104,7 @@ export default {
     border-style: solid;
 
     border-image: linear-gradient(to right, #EE2623, #F78E1E);
-    border-image-slice: 1;
+    border-image-slice: 1 !important;
     border-radius: 5px;
 
 }
