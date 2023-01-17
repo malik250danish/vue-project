@@ -92,7 +92,7 @@ export default {
   background-image: url("../assets/bg.png");
   color: #fff;
  /* background-size: cover; */
- background-size: 200vh;
+ background-size: 100%;
  /* height: cover; */
   /* height:200vh ;  */
  /* width: 100vh; */
