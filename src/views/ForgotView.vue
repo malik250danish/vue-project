@@ -9,34 +9,7 @@
     <div class="deposit">
 
         
-        <nav class="navbar navbar-expand-lg buttons ">
-                <div class="container-fluid">
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+       
         <div class="container-fluid depositContainer d-flex justify-content-center p-4  mt-4 flex-column">
             <label>Forget Password</label>
             <div class="d-flex">

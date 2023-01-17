@@ -101,8 +101,18 @@ export default {
 }
 
 .buttons {
-  background: linear-gradient(to right, #EE2623, #F78E1E);
-  color: #fff;
+    background: linear-gradient(to left, #EE2623, #F78E1E);
+    color: #fff
+}
+
+.rButton {
+    background: linear-gradient(to bottom, #EE2623, #f7921e);
+    border: none;
+     width:126px;
+    padding: 12px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow:1px 1px 1px 1px #000;
 }
 .rButton:hover{
   
@@ -114,15 +124,7 @@ export default {
 
 }
 
-.rButton {
-  background: linear-gradient(to right, #EE2623, #F78E1E);
-  border: none;
-  width: 100px;
-  height: 40px;
-  padding: 3px;
-  border-radius: 10px;
-  color: #fff;
-}
+
 
 .rtbutton {
   width: 200px;
@@ -166,6 +168,7 @@ export default {
   border-radius: 5px;
   color: #fff;
 
+
 }
 .dbButton:hover{
   background: #EE2623 !important;
@@ -196,6 +199,7 @@ export default {
   background: linear-gradient(to right, #EE2623, #F78E1E);
   margin-left: 40px;
   color: #fff;
+  box-shadow: 1px 1px 1px 1px #000;
 }
 
 

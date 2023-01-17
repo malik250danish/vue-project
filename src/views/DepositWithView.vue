@@ -69,13 +69,19 @@ export default {
 }
 </script>
 <style scoped>
-.rButton {
-    background: linear-gradient(to right, #EE2623, #F78E1E);
-    border: none;
+.buttons {
+    background: linear-gradient(to left, #EE2623, #F78E1E);
+    color: #fff
+}
 
-    padding:12px;
+.rButton {
+    background: linear-gradient(to bottom, #EE2623, #f7921e);
+    border: none;
+     width:126px;
+    padding: 12px;
     border-radius: 10px;
     color: #fff;
+    box-shadow:1px 1px 1px 1px #000;
 }
 .rButton:hover{
     background:#EE2623;
@@ -113,10 +119,6 @@ export default {
      margin-top: 8px;
 }
 
-.buttons{
-    background: linear-gradient(to right, #EE2623, #F78E1E);
-    color:#fff
-}
 
 
 

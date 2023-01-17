@@ -9,13 +9,6 @@
         <div class="lobby">
 
 
-            <!-- <div class="buttons container-fluid  mb-5 d-flex justify-content-center">
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-            <button class="rButton m-2">Random</button>
-        </div> -->
             <nav class="navbar navbar-expand-lg buttons ">
                 <div class="container-fluid">
 
@@ -25,9 +18,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <button class="rButton m-2">Random</button>
-                            </li>
+                           
                             <li class="nav-item">
                                 <button class="rButton m-2">Random</button>
                             </li>
@@ -66,7 +57,7 @@
                                     </button>
                                 </div>
                                 <div class="">
-                                    <button class=" buttonP  ">
+                                    <button class=" buttonP  " id="viewBtn">
                                        player 
                                        <i class="fa fa-eye"></i>
                                     </button>
@@ -101,6 +92,11 @@ export default {
     color: #fff;
 }
 
+#viewBtn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2pxgit;
+}
 .lobby {
     background-image: url("../assets/background2.png");
     position: relative;
@@ -129,17 +125,18 @@ export default {
 }
 
 .buttons {
-    background: linear-gradient(to right, #EE2623, #F78E1E);
+    background: linear-gradient(to left, #EE2623, #F78E1E) !important;
     color: #fff
 }
 
 .rButton {
-    background: linear-gradient(to right, #EE2623, #F78E1E);
+    background: linear-gradient(to bottom, #EE2623, #f7921e);
     border: none;
-
+     width:126px;
     padding: 12px;
     border-radius: 10px;
     color: #fff;
+    box-shadow:1px 1px 1px 1px #000;
 }
 .rButton:hover{
     background: #EE2623 !important;
