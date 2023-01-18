@@ -92,7 +92,8 @@ export default {
 </script>
 <style scoped>
 .btnNav{
-    margin-left:20px
+    margin-left:20px;
+    cursor: pointer;
 }
 .loby {
     background: #000;
