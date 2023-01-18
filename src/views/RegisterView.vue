@@ -99,9 +99,10 @@
           </div>
         </div>
       </div>
-      <div class="text-center mt-5">
-        <button class="submitBtn">Submit</button>
-        <div class="rfire"></div>
+      <div class="text-center mt-5 submitSection">
+        <!-- <button class="submitBtn">Submit</button> -->
+        <a href="#"><img src="../assets/image-sumbitregistor.png" width="450px"></a>
+        <div class="imageC mt-2 "><img src="../assets/image-contact-us.png"></div>
       </div>
     </div>
   </div>
@@ -127,7 +128,9 @@ export default {
   /* height: 100vh; */
   background-size: auto;
 }
-
+.submitSection{
+  cursor: pointer;
+}
 .submitBtn {
   background: linear-gradient(to right, #EE2623, #F78E1E);
   border: none;
@@ -144,8 +147,9 @@ export default {
   transition: 1s;
 
 }
-
-
+.imageC{
+  margin-bottom: 25px;
+}
 
 .f-input {
   width: 300px;
