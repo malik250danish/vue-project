@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                             <div class="col-12 mt-3 d-flex justify-content-center">
-                                <div class="row">
+                                <div class="row justify-content-center">
                                 <div class="col-12 col-md-6 col-lg-2 mb-2 d-flex justify-content-center">
                                     <button class="btn"><img src="../assets/lsb1.png" width="90px"></button>
                                 </div>
@@ -199,6 +199,7 @@ export default {
     font-weight: 700 !important;
     
 }
+
 
 .btnF {
     border-width: 2px;
