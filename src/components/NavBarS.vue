@@ -12,20 +12,20 @@
                     <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <img class="btnNav" src="../assets/menu-register.png">
+                                <a href="#"><img class="btnNav" src="../assets/menu-register.png"></a>
                             </li>
                            
                             <li class="nav-item">
-                                <img class="btnNav" src="../assets/btn.png">
+                                <a href="#"><img class="btnNav" src="../assets/btn.png"></a>
                             </li>
                             <li class="nav-item">
-                                <img class="btnNav" src="../assets/lobbybtn2.png">
+                                <a href="#"><img class="btnNav" src="../assets/lobbybtn2.png"></a>
                             </li>
                             <li class="nav-item">
-                                <img class="btnNav" src="../assets/lobbtbtn3.png">
+                                <a href="#"><img class="btnNav" src="../assets/lobbtbtn3.png"></a>
                             </li>
                             <li class="nav-item">
-                                <img class="btnNav" src="../assets/lobbybtn4.png">
+                                <a href="#"><img class="btnNav" src="../assets/lobbybtn4.png"></a>
                             </li>
                         </ul>
                     </div>
