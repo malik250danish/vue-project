@@ -32,9 +32,9 @@
       </div>
     </div>
     <div class="downButtons mt-5   my-5">
-      <a href="#"><img class="mx-1" src="../assets/d1.png" width="200px"></a>
-    <a href="#"><img class="mx-1" src="../assets/d2.png" width="200px"></a>
-    <a href="#"><img class="mx-1" src="../assets/d3.png" width="200px"></a>
+      <a href="#"><img class="mx-1  dImage" src="../assets/d1.png" width="200px"></a>
+    <a href="#"><img class="mx-1 dImage" src="../assets/d2.png" width="200px"></a>
+    <a href="#"><img class="mx-1 dImage" src="../assets/d3.png" width="200px"></a>
  
     </div>
   </div>
@@ -172,7 +172,9 @@ export default {
 }
 
 
-
+.dImage:hover{
+  transform: translateY(4px);
+}
 
 
 

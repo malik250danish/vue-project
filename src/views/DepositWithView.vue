@@ -88,7 +88,9 @@ export default {
 }
 
 
-
+.withdrawl:hover{
+    transform:translateY(4px)
+}
 
 @media only screen and (max-width: 600px) {
     .depositContainer input{

@@ -1,6 +1,6 @@
 <template>
     <div class="loby">
-        <div class="container mb-5 d-flex justify-content-evenly align-items-center ">
+        <div class="container mb-5 d-flex justify-content-evenly align-items-center nav1 ">
             <img class="mt-2" src="../assets/userP.png">
             <img class="mt-2" src="../assets/icon-logo.png" width="70px">
             <p>ออกจากระบบ</p>
@@ -184,6 +184,16 @@ export default {
 .playerContainer {
     margin-top: 50px;
     
+}
+.img:hover{
+    transform: translateY(4px);
+}
+
+.btnNav:hover{
+    transform: translateY(4px);
+}
+.nav1{
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {

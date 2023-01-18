@@ -57,5 +57,8 @@ export default {
     background: linear-gradient(to left, #EE2623, #F78E1E) !important;
     color: #fff
 }
-
+.btnNav:hover{
+    transform: translateY(4px);
+ 
+}
 </style>

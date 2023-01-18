@@ -13,7 +13,7 @@
         <div class="container-fluid depositContainer d-flex justify-content-center p-4  m-4 flex-column mt-5">
             <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ชื่อผู้ใช้ หรือ เบอร์มือถือ">
             <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="รหัสผ่าน">
-          <a href=""><img class="mt-2" src="../assets/button-submit2.png" width="200px"></a>
+          <a href=""><img class="mt-2 imgSubmit" src="../assets/button-submit2.png" width="200px"></a>
         </div>
         
     </div>
@@ -90,7 +90,9 @@ export default {
     color: #2E3192;
 }
 
-
+.imgSubmit:hover{
+    transform:translateY(4px)
+}
 
 
 
