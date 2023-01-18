@@ -10,14 +10,16 @@
 
         
        
-        <div class="container-fluid depositContainer d-flex justify-content-center p-4  mt-4 flex-column">
-            <label>Forget Password</label>
+        <div class="container-fluid depositContainer d-flex justify-content-center p-4  mt-1 flex-column">
+            <div class="forcontainer">
+            <label><img src="../assets/fimg.png" width="320px"></label>
             <div class="d-flex">
 
             <i class="fa fa-phone me-4"  style="font-size:36px"></i>
           <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" เบอร์โทรศัพท์">
         </div>
             <button class="withdrawl">ปุ่มยืนยัน</button>
+        </div>
         </div>
         
     </div>
@@ -67,6 +69,7 @@ export default {
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+   
 }
 .depositContainer input{
     margin-top:10px;
@@ -96,6 +99,9 @@ export default {
     transition: 1s;
 } */
 
+.forcontainer{
+    margin-top:200px !important;
+}
 
 
 @media only screen and (max-width: 600px) {

@@ -56,15 +56,17 @@
                             <div class="d-flex">
 
                                 <div class="">
-                                    <button class=" buttonP">
+                                    <!-- <button class=" buttonP">
                                         Player
-                                    </button>
+                                    </button> -->
+                                    <button class="btn"><img src="../assets/lobbybl.png" width="150px"></button>
                                 </div>
                                 <div class="">
-                                    <button class=" buttonP  " id="viewBtn">
+                                    <!-- <button class=" buttonP  " id="viewBtn">
                                        player 
                                        <i class="fa fa-eye"></i>
-                                    </button>
+                                    </button> -->
+                                    <button class="btn"><img src="../assets/lobbybr.png" width="150px"></button>
                                 </div>
                             </div>
                         </div>
