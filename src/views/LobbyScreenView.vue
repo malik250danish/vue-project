@@ -31,13 +31,13 @@
                         <div class="col-12 col-md-12 col-lg-8">
                             <div class="row">
                                 <div class="gradientBtn">
-                                    <button class="gBtn">Text</button>
+                                    <button class="gBtn">อัตราจ่าย</button>
                                 </div>
                             </div>
                             <div class="col-12 mt-3 d-flex justify-content-center">
                                 <div class="row">
                                 <div class="col-12 col-md-6 col-lg-2 mb-2 d-flex justify-content-center">
-                                    <button class="btnF">btn</button>
+                                    <button class="btn"><img src="../assets/lsb1.png" width="90px"></button>
                                 </div>
                                 <div class="col-12 col-md-12 col-lg-6 ">
                                     <div class="form-outline">
@@ -46,7 +46,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-2 mt-2  d-flex justify-content-center">
-                                    <button class="btnF">btn</button>
+                                    <button class="btn"><img src="../assets/lbs2.png" width="90px"></button>
                                 </div>
                                 </div>
                             </div>
@@ -304,6 +304,12 @@ export default {
             display: flex;
             align-items: end;
         }
+
+    }
+    @media only screen and (min-width: 1300px){
+        .gBtn{
+        right:255px
+    }
 
     }
 
