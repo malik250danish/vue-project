@@ -116,12 +116,13 @@ export default {
 .buttonP {
     background: linear-gradient(to right, #EE2623, #F78E1E);
     color: #fff;
-    border-radius: 50px;
+    border-radius: 17px;
     border: none;
     padding: 10px;
     width: 130px;
     /* margin-left: 3px; */
     text-align: center;
+    margin-left:9px;
 
 }
 .buttonP:hover{
