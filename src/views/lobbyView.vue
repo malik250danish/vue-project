@@ -43,7 +43,11 @@
                     <div class="img">
                         <img src="../assets/player1.png" width="200px">
                     </div>
+                            
                     <div class="  " id="tArea">
+                        <div class="textImage">
+                            <img src="../assets/text-image-current.png " width="200px">
+                        </div>
                         <div class="">
                             <div class=" mb-2">
                                 <textarea class="form-control " id="textAreaExample1" rows="4" cols="35"></textarea>
@@ -101,7 +105,7 @@ export default {
     margin-left: 2pxgit;
 }
 .lobby {
-    background-image: url("../assets/background2.png");
+    background: linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../assets/background2.png");
     position: relative;
     background-size: cover;
     color: #fff;
@@ -161,7 +165,7 @@ export default {
 
 #rImage {
     position: absolute;
-    top: -16px;
+    top: 25px;
     right: 20px;
 }
 
