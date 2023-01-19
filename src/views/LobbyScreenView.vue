@@ -6,7 +6,7 @@
     <div class="mainScreen">
 
         <div class="container">
-            <div class="row  justify-content-center">
+            <div class="row  justify-content-center pb-4">
                 <div class="col-12 col-md-6 col-lg-2 align-items-center d-flex flex-column tScreen">
                     <div class="screen mt-4 bounce-enter-active ">
                         <h5 class="text-center">การเดิมพันของคุณ</h5>
@@ -37,7 +37,7 @@
                             <div class="col-12 mt-3 d-flex justify-content-center">
                                 <div class="row justify-content-center">
                                 <div class="col-12 col-md-6 col-lg-2 mb-2 d-flex justify-content-center">
-                                    <button class="btn"><img src="../assets/lsb1.png" width="90px"></button>
+                                    <button class="btn"><img style="margin-top:-14px !important" src="../assets/lsb1.png" width="90px"></button>
                                 </div>
                                 <div class="col-12 col-md-12 col-lg-6 ">
                                     <div class="form-outline">
@@ -46,7 +46,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-2  d-flex justify-content-center">
-                                    <button class="btn" style=""><img src="../assets/lbs2.png" width="90px" ></button>
+                                    <button class="btn" style=""><img src="../assets/lbs2.png" width="90px" style="margin-top:-14px !important" ></button>
                                 </div>
                                 </div>
                             </div>
@@ -94,6 +94,9 @@ export default {
 .mainScreen {
     background-image: url('../assets/Background.png');
     background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .screen {

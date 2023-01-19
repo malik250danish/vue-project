@@ -1,45 +1,45 @@
 <template>
-  
+
   <div>
     <div class="container-fluid  aboutMain ">
       <div class="text-center">
         <img class="mt-1 mb-1" src="../assets/icon-logo.png" width="110px" style="width:90px !important">
       </div>
-     
-    </div>
-    <NavBarS/>
-  <div class="about">
 
-   
-    <div class="container ">
-     
-      <div class="row mainC pt-5">
-        <div class="col-6 col-md-6 col-lg-6 mt-5 mydiv">
-          <input type="textr" class="form-control mb-1" id="inputPassword2" placeholder="ชื่อผู้ใช้ หรือ เบอร์มือถือ">
-          <input type="text" class="form-control mb-1" id="inputPassword2" placeholder="รหัสผ่าน">
-          <div class="row">
-            <div class="col-12">
-             <a href="#"><img src="../assets/login-button.png" width="200px"></a>
-            <a href="#"><img src="../assets/forget-pass-button.png" width="200px"></a>
-             
-            </div>
-            
-            <div class="col-12 mt-1">
-             <a href=""><img src="../assets/register-button.png" width="400px"></a>
+    </div>
+    <NavBarS />
+    <div class="about">
+
+
+      <div class="container ">
+
+        <div class="row mainC pt-5">
+          <div class="col-6 col-md-6 col-lg-6 mt-5 mydiv">
+            <input type="textr" class="form-control mb-1" id="inputPassword2" placeholder="ชื่อผู้ใช้ หรือ เบอร์มือถือ">
+            <input type="text" class="form-control mb-1" id="inputPassword2" placeholder="รหัสผ่าน">
+            <div class="row">
+              <div class="col-12">
+                <a href="#"><img src="../assets/login-button.png" width="200px"></a>
+                <a href="#"><img src="../assets/forget-pass-button.png" width="200px"></a>
+
+              </div>
+
+              <div class="col-12 mt-1">
+                <a href=""><img src="../assets/register-button.png" width="400px"></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="downButtons    ">
-      <a href="#"><img class="mx-1  dImage" src="../assets/d1.png" width="200px"></a>
-    <a href="#"><img class="mx-1 dImage" src="../assets/d2.png" width="200px"></a>
-    <a href="#"><img class="mx-1 dImage" src="../assets/d3.png" width="200px"></a>
- 
-    </div>
-  </div>
+      <div class="downButtons    ">
+        <a href="#"><img class="mx-1  dImage" src="../assets/d1.png" width="200px"></a>
+        <a href="#"><img class="mx-1 dImage" src="../assets/d2.png" width="200px"></a>
+        <a href="#"><img class="mx-1 dImage" src="../assets/d3.png" width="200px"></a>
 
-</div>
+      </div>
+    </div>
+
+  </div>
 </template>
 
 <script>
@@ -49,45 +49,47 @@ import NavBarS from '@/components/NavBarS'
 export default {
   name: 'RegistorView',
   components: {
-   NavBarS
+    NavBarS
   }
 }
 </script>
 <style scoped>
-.aboutMain{
+.aboutMain {
   background: #000;
 }
+
 .about {
   background-image: url("../assets/bg.png");
   color: #fff;
- /* background-size: cover; */
- background-size: 100%;
- /* height: cover; */
+  /* background-size: cover; */
+  background-size: 100%;
+  /* height: cover; */
   /* height:200vh ;  */
- /* width: 100vh; */
- background-repeat: no-repeat;
+  /* width: 100vh; */
+  background-repeat: no-repeat;
 
 }
 
 .buttons {
-    background: linear-gradient(to left, #EE2623, #F78E1E);
-    color: #fff
+  background: linear-gradient(to left, #EE2623, #F78E1E);
+  color: #fff
 }
 
 .rButton {
-    background: linear-gradient(to bottom, #EE2623, #f7921e);
-    border: none;
-     width:126px;
-    padding: 12px;
-    border-radius: 10px;
-    color: #fff;
-    box-shadow:1px 1px 1px 1px #000;
+  background: linear-gradient(to bottom, #EE2623, #f7921e);
+  border: none;
+  width: 126px;
+  padding: 12px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 1px 1px 1px 1px #000;
 }
-.rButton:hover{
-  
+
+.rButton:hover {
+
   background: #EE2623 !important;
   cursor: pointer;
-  
+
   transition: 1s;
 
 
@@ -103,7 +105,8 @@ export default {
   color: #fff;
   font-weight: 700;
 }
-.rtbutton:hover{
+
+.rtbutton:hover {
   border: 4px solid #2E3192;
   background: #fff;
   color: #2E3192;
@@ -118,10 +121,11 @@ export default {
   color: #fff;
   font-weight: 700;
 }
-.ltbutton:hover{
+
+.ltbutton:hover {
   border: 4px solid #006837;
   background: #fff;
-  color:#006837;
+  color: #006837;
   cursor: pointer;
 }
 
@@ -133,31 +137,33 @@ export default {
 .dButton {
   width: 400px;
   height: 50px;
-  background:  #EE2623;
+  background: #EE2623;
   border-radius: 5px;
   color: #fff;
 
 
 }
-.dbButton:hover{
+
+.dbButton:hover {
   background: #EE2623 !important;
   cursor: pointer;
- 
+
   transition: 1s;
 }
-.dButton:hover{
+
+.dButton:hover {
   background: #EE2623 !important;
   cursor: pointer;
- 
+
   transition: 1s;
 }
 
 .downButtons {
-  
+
   margin-top: 100px;
   color: #fff;
- margin-left: 20rem;
-  margin-top:100px !important;
+  margin-left: 20rem;
+  margin-top: 100px !important;
 }
 
 .dbButton {
@@ -172,7 +178,7 @@ export default {
 }
 
 
-.dImage:hover{
+.dImage:hover {
   transform: translateY(4px);
 }
 
@@ -183,21 +189,37 @@ export default {
 
 
 
-  @media only screen and (max-width: 1200px){
-    /*Tablets [601px -> 1200px]*/.about{
+@media only screen and (max-width: 1200px) {
+
+  /*Tablets [601px -> 1200px]*/
+  .about {
     height: auto;
-  
+
+  }
 }
+
+@media only screen and (min-width: 1400px) {
+
+  /*Tablets [601px -> 1200px]*/
+  .about {
+    height: 100vh;
+  }
+  .downButtons{
+    display: flex;
+    justify-content: center;
+  }
 }
+
 @media only screen and (max-width: 600px) {
 
   /*Big smartphones [426px -> 600px]*/
-  .about{
+  .about {
     height: auto;
     background-repeat: no-repeat;
     background-size: auto;
-  
+
   }
+
   .mydiv input {
     width: 300px !important;
     height: 50px !important;
@@ -206,7 +228,7 @@ export default {
   .dButton {
     width: 190px !important;
     height: 60px;
-   
+
   }
 
   .mainC {
@@ -214,31 +236,35 @@ export default {
     margin-top: 50px !important;
   }
 
- 
+
   .ltbutton {
-  width: 190px !important;
-  height: 30px;}
+    width: 190px !important;
+    height: 30px;
+  }
+
   .rtbutton {
-  width: 190px !important;
-  height: 30px;}
+    width: 190px !important;
+    height: 30px;
+  }
+
   .downButtons {
-  
-  margin-top: 100px;
-  color: #fff;
- margin-left: 0;
-  margin-top:100px !important;
-  width:100px
-}
+
+    margin-top: 100px;
+    color: #fff;
+    margin-left: 0;
+    margin-top: 100px !important;
+    width: 100px
+  }
 
 
 }
-@media only screen and (max-width: 425px){
+
+@media only screen and (max-width: 425px) {
   .mydiv input {
     width: 200px !important;
     height: 40px !important;
   }
 
-	/*Small smartphones [325px -> 425px]*/
+  /*Small smartphones [325px -> 425px]*/
 }
-
 </style>

@@ -126,7 +126,8 @@ export default {
   background-image: url("../assets/Background.png");
   /* background-size:cover ; */
   /* height: 100vh; */
-  background-size: auto;
+  background-size: cover;
+  height: 100vh;
 }
 .submitSection{
   cursor: pointer;

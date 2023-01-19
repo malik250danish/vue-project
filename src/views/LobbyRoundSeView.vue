@@ -8,132 +8,192 @@
                     <div class="card  fCard bounce-enter-active">
                        
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4  ">Fight Ground</button>
+                        </div> -->
+                        <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4  ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
                     <div class="card  fCard bounce-enter-active">
                         <img src="../assets/p2.png">
-                        <div class="buttonBox mt-5 d-flex">
+                        <!-- <div class="buttonBox mt-5 d-flex">
                             <div class="imgp">
                             <img src="../assets/boxingtemp.png" height="20px" width="50px" class="mt-2">
                             </div>
                             <button class="btnBox px-4 ">Fight Ground</button>
+                        </div> -->
+                         <div>
+                        <button class="btn">
+                            <img src="../assets/lobbyRBtn1.png" width="98%">
+                        </button>
                         </div>
                     </div>
                 </div>
