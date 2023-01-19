@@ -5,7 +5,7 @@
         <div class="container fcontainer">
             <div class="row">
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active ">
+                    <div class="card fCard bounce-enter-active ">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -165,7 +165,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-3 mt-2 mb-4">
-                    <div class="card bg-dark fCard bounce-enter-active">
+                    <div class="card  fCard bounce-enter-active">
                         <img src="../assets/box-match.png">
                         <!-- <div class="buttonBox mt-5 d-flex" >
                             <div class="imp2">
@@ -252,7 +252,10 @@ export default {
     background: #030303;
 }
 .fCard{
-    background: linear-gradient(to right, #FFF,#000000)
+    /* background: linear-gradient(to right, #FFF,#000000); */
+    background:#000;
+    border-radius: 20px;
+    
 }
 .fCard:hover{
     

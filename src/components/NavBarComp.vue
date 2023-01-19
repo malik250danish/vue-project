@@ -84,6 +84,8 @@ export default {
 }
 .inp{
  width: 92%;
+ outline: red !important;
+ border:1px solid red !important;
 }
 .nav-item:hover{
   transform:translateY(4px)

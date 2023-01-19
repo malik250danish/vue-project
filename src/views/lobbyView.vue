@@ -1,9 +1,9 @@
 <template>
     <div class="loby">
-        <div class="container mb-5 d-flex justify-content-evenly align-items-center nav1 ">
+        <div class="container mb-1 d-flex justify-content-evenly align-items-center nav1 ">
             <img class="mt-2" src="../assets/userP.png">
             <img class="mt-2" src="../assets/icon-logo.png" width="70px">
-            <p>ออกจากระบบ</p>
+            <p class="mt-2">ออกจากระบบ</p>
 
         </div>
         <div class="lobby">
@@ -35,13 +35,13 @@
                     </div>
                 </div>
             </nav>
-            <div class="container d-flex justify-content-center  playerContainer ">
+            <div class="container d-flex justify-content-center  playerContainer  ">
                
                     <div class="img">
-                        <img src="../assets/player1.png" width="200px">
+                        <img src="../assets/3round.png" width="250px">
                     </div>
                     <div class="img">
-                        <img src="../assets/player1.png" width="200px">
+                        <img src="../assets/player1.png" width="250px">
                     </div>
                             
                     <div class="  " id="tArea">
@@ -96,6 +96,7 @@ export default {
 .btnNav{
     margin-left:20px;
     cursor: pointer;
+    width: 150px;
 }
 .loby {
     background: #000;
@@ -110,9 +111,11 @@ export default {
 .lobby {
     background: linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../assets/background2.png");
     position: relative;
-    background-size: cover;
+   background-size:cover ;
+    background-repeat:no-repeat ;
     color: #fff;
-    height: 77vh;
+    height: 100vh;
+    
   
 }
 
@@ -184,8 +187,11 @@ export default {
 }
 
 .playerContainer {
-    margin-top: 50px;
+    margin-top: 150px;
     
+}
+.img{
+    margin-left: 20px;
 }
 .img:hover{
     transform: translateY(4px);

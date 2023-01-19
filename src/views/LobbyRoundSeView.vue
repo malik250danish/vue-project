@@ -274,7 +274,10 @@ export default {
 }
 
 .fCard{
-    background: linear-gradient(to right,#0462AE,#FE0000);
+    /* background: linear-gradient(to right,#0462AE,#FE0000); */
+    background: #000;
+    border-radius: 20px;
+    
 }
 .fCard:hover {
 
