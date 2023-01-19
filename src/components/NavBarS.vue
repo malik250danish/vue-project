@@ -51,14 +51,16 @@ export default {
 </script>
 <style scoped>
 .btnNav{
-    margin-left:20px
+    margin-left:20px;
+    width:120px;
 }
 .buttons {
     background: linear-gradient(to left, #EE2623, #F78E1E) !important;
     color: #fff
 }
 .btnNav:hover{
-    transform: translateY(4px);
+    transform: translateY(-4px) ;
+    
  
 }
 </style>

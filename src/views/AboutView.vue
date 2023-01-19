@@ -3,7 +3,7 @@
   <div>
     <div class="container-fluid  aboutMain ">
       <div class="text-center">
-        <img class="mt-4" src="../assets/icon-logo.png" width="140px" style="width:140px !important">
+        <img class="mt-1 mb-1" src="../assets/icon-logo.png" width="110px" style="width:90px !important">
       </div>
      
     </div>
@@ -13,7 +13,7 @@
    
     <div class="container ">
      
-      <div class="row mainC mt-5">
+      <div class="row mainC pt-5">
         <div class="col-6 col-md-6 col-lg-6 mt-5 mydiv">
           <input type="textr" class="form-control mb-1" id="inputPassword2" placeholder="ชื่อผู้ใช้ หรือ เบอร์มือถือ">
           <input type="text" class="form-control mb-1" id="inputPassword2" placeholder="รหัสผ่าน">
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <div class="downButtons mt-5   my-5">
+    <div class="downButtons    ">
       <a href="#"><img class="mx-1  dImage" src="../assets/d1.png" width="200px"></a>
     <a href="#"><img class="mx-1 dImage" src="../assets/d2.png" width="200px"></a>
     <a href="#"><img class="mx-1 dImage" src="../assets/d3.png" width="200px"></a>
@@ -157,7 +157,7 @@ export default {
   margin-top: 100px;
   color: #fff;
  margin-left: 20rem;
-  margin-top:150px !important;
+  margin-top:100px !important;
 }
 
 .dbButton {

@@ -8,15 +8,15 @@
         <div class="container">
             <div class="row  justify-content-center">
                 <div class="col-12 col-md-6 col-lg-2 align-items-center d-flex flex-column tScreen">
-                    <div class="screen mt-2 bounce-enter-active ">
-                        <h3 class="text-center">การเดิมพันของคุณ</h3>
+                    <div class="screen mt-4 bounce-enter-active ">
+                        <h5 class="text-center">การเดิมพันของคุณ</h5>
                     </div>
-                    <div class="screen mt-2 ml-2 bounce-enter-active">
-                        <h3 class="text-center"> คู่มวยอื่น </h3>
+                    <div class="screen mt-4 ml-2 bounce-enter-active">
+                        <h5 class="text-center"> คู่มวยอื่น </h5>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-8 d-flex flex-column justify-content-center align-items-center   ">
-                    <div class="vs mx-auto ">
+                    <div class="vs mx-auto mt-1 mb-1 ">
                         <img src="../assets/VS.png" width="70%" >
                         <!-- <h3 class="text-center text-white">VS</h3> -->
                     </div>
@@ -24,12 +24,12 @@
            
                     </div>
                   <div class="col-12">
-                    <div class="row mt-4 justify-content-center punchRow">
+                    <div class="row mt-2 justify-content-center punchRow">
                         <div class="col-6 col-md-6 col-lg-2 mb-2">
-                            <button class="buttonB" id="redBtn"><img src="../assets/redb.png" width="80px"></button>
+                            <button class="btn" id="redBtn"><img src="../assets/redb.png" width="120px" style="border-radius:10px" ></button>
                         </div>
                         <div class="col-12 col-md-12 col-lg-8">
-                            <div class="row">
+                            <div class="row d-flex justify-content-center">
                                 <div class="gradientBtn">
                                     <button class="gBtn">อัตราจ่าย</button>
                                 </div>
@@ -45,8 +45,8 @@
                                         
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-2 mt-2  d-flex justify-content-center">
-                                    <button class="btn"><img src="../assets/lbs2.png" width="90px"></button>
+                                <div class="col-12 col-md-6 col-lg-2  d-flex justify-content-center">
+                                    <button class="btn" style=""><img src="../assets/lbs2.png" width="90px" ></button>
                                 </div>
                                 </div>
                             </div>
@@ -58,16 +58,16 @@
                                 <button class="btnp">+ 1000</button>
                             </div>
                         </div>
-                        <div class="col-6 col-md-6 col-lg-2 mt-3 mb-2">
-                            <button class="buttonB" id="blueBtn"><img src="../assets/blueb.png" width="80px"></button>
+                        <div class="col-6 col-md-6 col-lg-2 mt-3 mb-2" style="position:relative">
+                            <button class="buttonB" id="blueBtn"><img src="../assets/blueb.png" width="120px" style=" position:absolute; right:40px; top:-3px; border-radius:10px"></button>
                         </div>
                     </div>
                   </div>
 
                 </div>
                 <div class="col-12 col-lg-2 col-md-6 s3 mt-1">
-                    <div class=" Screen3 bounce-enter-active text-center">
-                        <h3>การเดิมพันทั้งหมด</h3>
+                    <div class=" Screen3 mt-3 bounce-enter-active text-center">
+                        <h5>การเดิมพันทั้งหมด</h5>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ export default {
 
 .screen {
     width: 250px;
-    height: 300px;
+    height: 270px;
     background: #000;
     border-width: 4px;
     border-style: solid;
@@ -128,26 +128,27 @@ export default {
 }
 
 .Screen3 {
-    width: 270px;
-    height: 100%;
+    width: 230px;
+    height: 80%;
     background: #000;
     border-width: 4px;
     border-style: solid;
 
     border-image: linear-gradient(to right, #EE2623, #F78E1E);
     border-image-slice: 1 !important;
-    border-radius: 5px;
+
 }
 
-.screen h3 {
+.screen h5 {
     background: linear-gradient(to right, #EE2623, #F78E1E);
     padding: 5px;
     color:#fff
 }
-.Screen3 h3 {
+.Screen3 h5 {
     background: linear-gradient(to right, #EE2623, #F78E1E);
     padding: 5px;
-    color:#fff
+    color:#fff;
+
 }
 
 .buttonB {
@@ -166,7 +167,8 @@ export default {
     margin-top: 10px;
     height: 40px;
     position: relative;
-    
+    width: 80%;
+   
     align-items: center;
 
 }
@@ -179,7 +181,7 @@ export default {
     color: #fff;
     position: absolute;
     top: -10px;
-    right: 220px;
+    right: 160px;
     border-width: 4px;
     border-style: solid;
 
@@ -214,7 +216,7 @@ export default {
     
 }
 #redBtn{
-    background: #E51C24;
+    /* background: #E51C24; */
     width: fit-content;
     border-radius: 10px;
     margin-left: 20px;
@@ -262,7 +264,7 @@ export default {
     
 }
 .Screen3 {
-    width: 220px;
+    width: auto;
     height: 250px;
     text-align: center;
 }
@@ -293,11 +295,11 @@ export default {
         justify-content: center;
     }
     .Screen3{
-        width: 350px;
+        
         height: 100%;
     }
     .gBtn{
-        right:170px
+        right:200px
     }
     .screen{
         margin-left:10px}
@@ -307,9 +309,9 @@ export default {
         }
 
     }
-    @media only screen and (min-width: 1300px){
+    @media only screen and (min-width: 1400px){
         .gBtn{
-        right:255px
+        right:196px
     }
 
     }
